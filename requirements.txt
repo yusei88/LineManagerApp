@@ -1,0 +1,5 @@
+Cython==0.29.21
+dyNET==2.1.1
+nagisa==0.2.7
+numpy==1.19.2
+six==1.15.0
