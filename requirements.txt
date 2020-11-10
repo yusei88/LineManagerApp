@@ -1,5 +1,9 @@
+autopep8==1.5.4
 Cython==0.29.21
 dyNET==2.1.1
+jaconv==0.2.4
 nagisa==0.2.7
 numpy==1.19.2
+pycodestyle==2.6.0
 six==1.15.0
+toml==0.10.1
