@@ -1,0 +1,18 @@
+@startuml
+
+:start;
+
+:Lineで文章を受け取る;
+note left :例\n話は変わるけど明日飲める人\nじゃあ6時に池袋で
+
+if(Japanese or English) then (Japanese)
+    :予定抽出;
+else (English)
+    :予定抽出;
+endif
+:予定抽出結果;
+:return dates,times,places;
+note left:例\ndates=[('', '11/19', '')],times=['6時'],places=['池袋']
+:end;
+
+@enduml
